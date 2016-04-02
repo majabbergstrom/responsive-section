@@ -17,6 +17,11 @@ html {
   box-sizing: inherit;
 }
 
+section {
+  margin: 0;
+  background-color: #e5c30a;
+}
+
 body {
   margin: 0;
 }
@@ -123,6 +128,11 @@ section p {
     margin: 0;
     overflow: hidden;
   }
+
+  .wrapper {
+    margin: 0 auto;
+    min-width: 45em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -130,6 +140,17 @@ section p {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    min-width: 45em;
+  }
+
+  .img-flex:last-child {
+    float: right;
+    width: 100%;
+    margin-right: -50em;
   }
 
 }
